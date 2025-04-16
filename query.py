@@ -12,7 +12,7 @@ except ModuleNotFoundError:
     
 import re
 import urllib.parse
-
+print(f'''{render('query', colors=['red', 'yellow'], align='center')}''')
 print(f'''{render('YOUSSEF', colors=['green', 'yellow'], align='center')}''')
 def extract_tgwebappdata():
     url_input = input("Enter the URL: ").strip()
